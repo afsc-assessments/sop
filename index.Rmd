@@ -1,0 +1,31 @@
+--- 
+title: "AFSC Fishery Stock Assessment SOP"
+author: 
+- "Jane Does"
+- "John Doe"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+
+cover-image: "images/cover.png"
+description: |
+  A user manual for ASFC assessment authors.
+link-citations: yes
+github-repo: afsc-assessment/sop
+url: https://afsc-assessment.github.io/sop
+---
+
+```{r, echo = F}
+library(knitr)
+library(here)
+```
+
+# Welcome
+
+![AFSC assessments and such](images/cover.png)
+
+
+
+
+blah blah blah

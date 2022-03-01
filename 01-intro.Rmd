@@ -1,0 +1,114 @@
+# Groundfish SAFE Report Chapters 
+
+## Introduction
+
+The BSAI and GOA Groundfish FMPs require that separate drafts of the SAFE reports be produced each year in time for the October and December meetings of the North Pacific Fishery Management Council. 
+These drafts are assembled at meetings of the Groundfish Plan Teams held in September and November.
+
+To ensure adequate time for internal review of stock assessments, a pair of due dates will be established annually.  These due dates typically will precede the respective Plan Team meetings by two to three weeks. 
+The following guidelines govern the preparation of individual stock assessment chapters for the two drafts.
+
+Please note that the Plan Teams expect sufficient documentation for any potential action item to be provided at least 7 days prior to the start of the meeting. 
+If exceptional circumstances make it impossible to meet this deadline, the Teams expect such documentation to be provided as soon as possible, and in no case later than 5:00 p.m. on the day before the presentation is to be given. 
+
+## September SAFE Report Guidelines
+
+It is not always necessary to produce a chapter for the September SAFE report.  
+In general, it is assumed that authors will be able to discern whether any changes in the stock assessment resulting from incorporation of the available new information are substantial enough to require review by the Plan Teams and SSC.  
+
+Authors are strongly encouraged to collect and analyze new information prior to the relevant due date to ensure that the implications of such information are thoroughly evaluated.
+A chapter may not be necessary for the September SAFE report if the above conditions do not apply, if no new information is available, or if preliminary analyses of new information fail to indicate any substantial changes from the previous assessment.
+
+If a stock is being considered for upgrading to Tiers 1-3, or if a new assessment model or analysis is being recommended, a chapter should be produced that provides enough information for the Plan Team(s) to make a decision about what new models or analyses should be included in the November assessment.
+
+In all cases, consideration should be given to **all** applicable SSC and Plan Team comments from the previous assessment(s). 
+Chapters should be submitted by the relevant due date. 
+
+## November SAFE Report Guidelines
+
+A chapter should be produced for the November SAFE report in all cases except for stocks or stock complexes that the AFSC, after consultation with the Plan Teams and SSC, has placed on a biennial assessment cycle. The chapter should include all sections listed in the "Outline of SAFE Report Chapters" below.  
+The Outline is intended to provide a consistent structure and logical flow for stock assessments conducted at the AFSC for the groundfish fisheries of the BSAI and GOA.  
+Some variation from this outline is permissible if warranted by limitations of data or other extenuating circumstance.  
+However, it is particularly important that all of the items listed under "Projections and Harvest Alternatives" be included to the maximum extent possible, in that many of these are critical to the fishery management process.
+Consideration should be given to all applicable SSC and Plan Team comments from the previous assessment(s).  Chapters should be submitted by the relevant due date.  
+
+Please omit any headers, page numbers, and footers on the version of drafts submitted for dissemination to the Plan Teams or Council.  
+They will be added afterwards. 
+Use of section heading styles in Word (heading 1, heading 2, etc.) and “normal” style (11 point times new roman) for main text is encouraged. 
+Please allow 1 inch margins (72 points) and be sure the tables or figures don’t overlap the margins.  
+Please use the chapter numbers as they appear in the tasking memo.
+SAFE chapters should be outlined as follows:
+
+
+### Title
+
+Please use the following convention: “Assessment of the *Myfish* stock in the *Gulf of Alaska*” for single-stock assessments and “Assessment of the *Myfish* stock complex in the *Gulf of Alaska*” for multi-stock assessments (replacing italicized text appropriately).
+
+### Executive Summary
+
+#### Summary of Changes in Assessment Inputs
+List of changes (if any) in the input data, including estimated catches assumed for the current year and projected catches for current year + 1 and current year + 2.
+
+List of changes (if any) in the assessment methodology. 
+**This is one of the most important sections of the SAFE report**.  
+Common mistakes in this section include: 1) listing something that *has not* changed, and 2) not listing something that *has* changed.
+
+Summary of Results
+
+Text table showing M; recommended Tier; projected total biomass (give age range); female spawning biomass; equilibrium female spawning biomass values for B0 and BMSY (Tier 1 only) or B100%, B40%, and B35% (Tier 3 only); FOFL; the maximum allowable value for FABC; the recommended value for FABC; OFL; the maximum allowable ABC, and the recommended ABC.  
+State whether the stock or complex is being subjected to overfishing, is currently overfished, or is approaching a condition of being overfished.  
+Compare all of the above to the corresponding values from last year’s final assessment (or final specifications, if different from the assessment values).  
+Tier-specific templates for this table are shown on the following pages **notes: 1) the rows labeled “Female spawning biomass (t)” and “Projected” for Tiers 1 and 3 and the row labeled “Biomass (t)” for Tier 5 are headers, so please do not put anything in those rows; 2) the “x” in “age x+” should be replaced with the appropriate value for stocks in Tiers 1 or 3; and 3) cells with “current year…” should be replaced with the appropriate number, where “current year” means *this year*** . 
+A brief discussion of substantial changes in results from last year may be included if it helps explain the summary table.
+
+#### Responses to SSC and Plan Team Comments on Assessments in General
+
+Responses to SSC and Plan Team comments on assessments in general (for each comment that is addressed in the main text, list comment, and reference the section where it is discussed). 
+**If the SSC or Plan Team did not make any comments on assessments in general, say so.**
+
+#### Responses to SSC and Plan Team Comments Specific to this Assessment
+Responses to SSC and Plan Team comments specific to this assessment (for each comment that is addressed in the main text, list comment and reference the section where it is discussed). 
+**If the SSC or Plan Team did not make any comments specific to this assessment, say so.**
+
+### Introduction 
+
+Scientific name
+Description of general biology and distribution
+Description of key life history characteristics specific to stock assessments (e.g., special features of reproductive biology)
+Evidence of stock structure, if any
+
+### Fishery 
+
+Brief description of fishery history
+Description of management measures/unit(s) 
+Management history (including key changes which may have influenced assessment procedures; selectivity of commercial fishing gear; or distribution of catch by gear, area, or season.
+Include a table of total catch, total ABC, total OFL, and total TAC, and associated management measures
+Description of the current directed fishery (including gear types, seasons, major fishing locations)
+Description of effort and CPUE
+Information on discards of this stock or stock complex (from directed fishery for this stock or stock complex)
+
+
+### Data 
+
+(If the data for any particular component described here are so voluminous that the corresponding tables would comprise more than 2 pages, the tables may be placed on an ftp site referenced in the chapter.)
+For Tiers 1-3, insert a text table summarizing the data used in the assessment model (source, type, years included). The following is a typical example:
+
+
+\centering
+\begin{adjustbox}{width=1.2\textwidth,center=\textwidth}
+\begin{tabular}{lll}
+  \hline
+	\bf{Source} & \bf{Data} & \bf{Years} \\
+	\hline
+	\multirow[t]{2}{*}{NMFS groundfish survey} & Survey biomass &  1984-1999 (triennial), 2001-2013 (biennial)\\
+	                                        & Age Composition & 1984, 1987, 1990, 1993, 1996, 1999, 2003, 2005, 2007, 2009, 2011
+
+\\
+    \hline
+		\multirow[t]{3}{*}{U.S. trawl fisheries}  & Catch  & 1961-2013 \\
+		 & Age composition & 1990,1998-2002, 2004, 2005, 2006, 2008, 2010 \\
+		 & Length composition & 1963-1977, 1991-1997\\
+	\hline
+\end{tabular}
+\end{adjustbox}
+
