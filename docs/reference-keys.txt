@@ -45,3 +45,7 @@ gulf-of-alaska
 ebs-slope-stratum-designations
 ebs-shelf-stratum-designations
 confidentiality
+handling-confidential-data-on-github
+easy-method
+local-commit-but-not-pushed-to-github
+accidentally-pushed-to-github

@@ -10,16 +10,16 @@
 
   <meta property="og:title" content="Chapter 3 Data | AFSC Fishery Stock Assessment SOP" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://ben-williams.github.io/afsc-assess/" />
-  <meta property="og:image" content="https://ben-williams.github.io/afsc-assess/images/cover.png" />
+  <meta property="og:url" content="https://afsc-assessment.github.io/sop" />
+  <meta property="og:image" content="https://afsc-assessment.github.io/sop/images/cover.png" />
   <meta property="og:description" content="A user manual for ASFC assessment authors." />
-  <meta name="github-repo" content="ben-williams/afsc-assess" />
+  <meta name="github-repo" content="afsc-assessment/sop" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 3 Data | AFSC Fishery Stock Assessment SOP" />
   
   <meta name="twitter:description" content="A user manual for ASFC assessment authors." />
-  <meta name="twitter:image" content="https://ben-williams.github.io/afsc-assess/images/cover.png" />
+  <meta name="twitter:image" content="https://afsc-assessment.github.io/sop/images/cover.png" />
 
 <meta name="author" content="Jane Does" />
 <meta name="author" content="John Doe" />
@@ -71,7 +71,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">AFSC Asessments</a></li>
+<li><a href="./">AFSC Assessments</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
@@ -91,7 +91,10 @@
 <li class="chapter" data-level="3" data-path="groundfish-safe-report-chapters.html"><a href="groundfish-safe-report-chapters.html#data"><i class="fa fa-check"></i><b>3</b> Data</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>3.1</b> Getting access</a></li>
-<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#confidentiality"><i class="fa fa-check"></i><b>3.2</b> Confidentiality</a></li>
+<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#confidentiality"><i class="fa fa-check"></i><b>3.2</b> Confidentiality</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data.html"><a href="data.html#handling-confidential-data-on-github"><i class="fa fa-check"></i><b>3.2.1</b> Handling confidential data on GitHub</a></li>
+</ul></li>
 <li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#bering-sea"><i class="fa fa-check"></i><b>3.3</b> Bering Sea</a>
 <ul>
 <li class="chapter" data-level="3.3.1" data-path="data.html"><a href="data.html#ebs-slope-stratum-designations"><i class="fa fa-check"></i><b>3.3.1</b> EBS SLOPE STRATUM DESIGNATIONS:</a></li>
@@ -163,7 +166,20 @@ akfin =
 </div>
 <div id="confidentiality" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Confidentiality</h2>
-<p>Handling confidential data on GitHub</p>
+<p>Some data we just aren’t permitted to share…</p>
+<div id="handling-confidential-data-on-github" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Handling confidential data on GitHub</h3>
+<div id="easy-method" class="section level4" number="3.2.1.1">
+<h4><span class="header-section-number">3.2.1.1</span> Easy method</h4>
+<p>Use <code>.gitignore</code> and keep any confidential files from being pushed to github.</p>
+</div>
+<div id="local-commit-but-not-pushed-to-github" class="section level4" number="3.2.1.2">
+<h4><span class="header-section-number">3.2.1.2</span> Local commit but not pushed to GitHUb</h4>
+</div>
+<div id="accidentally-pushed-to-github" class="section level4" number="3.2.1.3">
+<h4><span class="header-section-number">3.2.1.3</span> Accidentally pushed to GitHUb</h4>
+</div>
+</div>
 </div>
 <div id="bering-sea" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Bering Sea</h2>
@@ -269,7 +285,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ben-williams/afsc-assess/edit/main/02-data.Rmd",
+"link": "https://github.com/afsc-assessments/sop/edit/main/02-data.Rmd",
 "text": "Edit"
 },
 "history": {

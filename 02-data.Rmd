@@ -53,7 +53,19 @@ Some simple terminology for when you are communicating with the AKFIN folks. “
 
 ## Confidentiality
 
-Handling confidential data on GitHub
+Some data we just aren't permitted to share...
+
+### Handling confidential data on GitHub
+
+#### Easy method 
+Use `.gitignore` and keep any confidential files from being pushed to github.
+
+#### Local commit but not pushed to GitHUb
+
+
+#### Accidentally pushed to GitHUb
+
+
 
 ## Bering Sea
 
