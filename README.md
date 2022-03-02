@@ -6,3 +6,5 @@ It is hosted at https://afsc-assessments.github.io/sop/
 
 If you have any questions or find errors please post them into the `issues` tab at https://github.com/afsc-assessments/sop/issues
 
+If you would like a section added please ask in the issues tab!
+
