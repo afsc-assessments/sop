@@ -60,7 +60,24 @@ Some data we just aren't permitted to share...
 #### Easy method 
 Use `.gitignore` and keep any confidential files from being pushed to github.
 
-#### Local commit but not pushed to GitHUb
+
+
+#### Local commit but not yet pushed to GitHUb
+
+In this scenario you have accidentally **committed the wrong files** to Git, **but haven't pushed the commit to GitHub**. 
+There are several ways to "undo" a series of commits. 
+The method you choose depends upon the desired outcome: 
+
+*  Undo commit and keep all files staged: `git reset --soft HEAD^`
+*  Undo commit and unstage all files: `git reset HEAD^`
+    + Undo last 3 commits and unstage all files: `git reset HEAD~3`
+*  Undo the commit and completely remove all changes: `git reset --hard HEAD^`
+
+Generally speaking you will want to use `git reset HEAD^`.
+
+```{r, echo = FALSE}
+knitr::include_graphics("https://www.cloudsavvyit.com/p/uploads/2021/07/f5026f58.png?trim=1,1&bg-color=000&pad=1,1")
+```
 
 
 #### Accidentally pushed to GitHUb

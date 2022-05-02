@@ -49,3 +49,9 @@ handling-confidential-data-on-github
 easy-method
 local-commit-but-not-pushed-to-github
 accidentally-pushed-to-github
+onboarding
+data-1
+local-commit-but-not-yet-pushed-to-github
+code-of-conduct
+git-and-github
+afsc-best-practices
