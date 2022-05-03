@@ -27,3 +27,6 @@ responses-to-ssc-and-plan-team-comments-specific-to-this-assessment
 introduction-1
 fishery
 data-1
+file-directory
+coding-styel-guide
+coding-style-guide

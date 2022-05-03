@@ -5,5 +5,9 @@
 
 ## Git and GitHub 
 
-### AFSC Best Practices
+## AFSC Best Practices
+
+### File directory
+
+### Coding style guide
 
