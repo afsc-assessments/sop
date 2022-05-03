@@ -1,6 +1,6 @@
 --- 
 title: "AFSC Fishery Stock Assessment SOP"
-author: "Ben Williams and"
+author: "alphabetical and Ben Williams"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

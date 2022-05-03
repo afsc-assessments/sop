@@ -83,14 +83,17 @@ knitr::include_graphics("https://www.cloudsavvyit.com/p/uploads/2021/07/f5026f58
 #### Accidentally pushed to GitHUb
 
 
+## Crab data 
 
-## Bering Sea
+## Groundfish data 
+
+### Bering Sea
 
 Stratum numbers in the AKFIN tables designate different levels of data grouping. 
 These designations are different for the different surveys (EBS slope vs EBS shelf). 
 Given that these groupings are made at different levels, care should be taken not to sum values over all strata because this can duplicate data.
 
-### EBS SLOPE STRATUM DESIGNATIONS: 
+#### EBS SLOPE STRATUM DESIGNATIONS: 
 
 Strata include (`1:6, 11:15, 21:25, 31:35, 41:45, 5:55, 61:65, 999999`).
 
@@ -130,7 +133,7 @@ Thus, biomass for `stratum=999999` is the same as the sum of biomass for strata 
 knitr::include_graphics(here::here("figs", "EBS_slope_strata.png"))
 ```
 
-### EBS SHELF STRATUM DESIGNATIONS:
+#### EBS SHELF STRATUM DESIGNATIONS:
 
 Strata include (`1:10, 20, 31, 32, 41:43, 50, 61, 62, 82, 90, 100, 200, 300, 999`). 
 
@@ -157,9 +160,9 @@ The other strata (`1:9, 100, 200, 300, 999`) are various summations of the core 
 knitr::include_graphics(here::here("figs", "EBS_shelf_strata.png"))
 ```
 
-## Aleutian Islands
+### Aleutian Islands
 
 
-## Gulf of Alaska
+### Gulf of Alaska
 
 

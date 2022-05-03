@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">AFSC Assessments</a></li>
       after: |
-        <li><a href="https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center" target="blank">Direct all questions to jim.ianelli@noaa.gov</a></li>
+        <li><a href="https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center" target="blank">AFSC</a></li>
     edit: https://github.com/afsc-assessments/sop/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
