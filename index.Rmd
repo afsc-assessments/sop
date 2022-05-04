@@ -14,16 +14,9 @@ github-repo: afsc-assessment/sop
 url: https://afsc-assessment.github.io/sop
 ---
 
-```{r, echo = F}
-library(knitr)
-library(here)
-```
-
 # Welcome
 
 ![](images/cover.png)
-
-
 
 
 The content for this book was developed as part of our group's participation in the [Openscapes Champions program](https://openscapes.org).  
@@ -36,5 +29,3 @@ knitr::include_graphics(here::here("images/openscapes_hex_badge.png"))
 <a align="left" href="https://github.com/afsc-assessments/sop/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="35px"></a> &larr; link to this book's GitHub repository. 
 
 If you have anything you would like to add or see something that needs corrected please create an [Issue and let us know](https://github.com/afsc-assessments/sop/issues)!
-
-

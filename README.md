@@ -1,10 +1,13 @@
 Welcome! 
 
-This is a book for AFSC assessment authors to keep track of how, when, and where to go for information pertinent to generating fishery stock assessments. 
-It is hosted at https://afsc-assessments.github.io/sop/
+This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
 
+This template provides a skeleton file structure that you can edit to create your book. 
 
-If you have any questions or find errors please post them into the `issues` tab at https://github.com/afsc-assessments/sop/issues
+The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
 
-If you would like a section added please ask in the issues tab!
+Additional resources:
 
+The **bookdown** book: https://bookdown.org/yihui/bookdown/
+
+The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown

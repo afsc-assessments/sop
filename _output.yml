@@ -5,8 +5,8 @@ bookdown::gitbook:
       before: |
         <li><a href="./">AFSC Assessments</a></li>
       after: |
-        <li><a href="https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center" target="blank">AFSC</a></li>
-    edit: https://github.com/afsc-assessments/sop/edit/main/%s
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
