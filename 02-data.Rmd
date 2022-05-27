@@ -51,6 +51,20 @@ akfin =
 ```
 Some simple terminology for when you are communicating with the AKFIN folks. “AKFIN” is the database. The schema is essentially like a folder and inside of it are all the tables.
 
+## Passwords
+
+Your AFSC database password expires every 90 days. 
+Fortunately it is easy to update using Oracle SQL Developer. 
+
+Step 1. Open Oracle SQL Developer  
+Step 2. Right click the AFSC connection, then click on "Reset Password".
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here('figs', 'pwd1.png'))
+```
+
+
+
 ## Confidentiality
 
 Some data we just aren't permitted to share...
