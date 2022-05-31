@@ -59,7 +59,7 @@ Fortunately it is easy to update using Oracle SQL Developer.
 Step 1. Open Oracle SQL Developer  
 Step 2. Right click the AFSC connection, then click on "Reset Password".
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, fig.alt='Screenshot of using SQL Developer to reset a password for the AFSC server.'}
 knitr::include_graphics(here::here('figs', 'pwd1.png'))
 ```
 
@@ -89,7 +89,7 @@ The method you choose depends upon the desired outcome:
 
 Generally speaking you will want to use `git reset HEAD^`.
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, fig.alt="git commands for undoing commits."}
 knitr::include_graphics("https://www.cloudsavvyit.com/p/uploads/2021/07/f5026f58.png?trim=1,1&bg-color=000&pad=1,1")
 ```
 
@@ -143,7 +143,7 @@ Finally, there is a combined overall Stratum designation:
 Thus, biomass for `stratum=999999` is the same as the sum of biomass for strata `1+2+3+4+5+6`, or the sum of biomass for strata (`11+12+13+14+15+21+22+23+24+25+31+32+33+34+35+41+42+43+44+45+51+52+53+54+55+61+62+63+64+65`).
 
 
-```{r slope, out.height = "460px", out.width='800px', echo=F}
+```{r slope, out.height = "460px", out.width='800px', echo=F, fig.alt="Map of the Bering Sea showing strata, the digit designates the canyons ordered 1-6, south to north"}
 knitr::include_graphics(here::here("figs", "EBS_slope_strata.png"))
 ```
 
@@ -170,7 +170,7 @@ The other strata (`1:9, 100, 200, 300, 999`) are various summations of the core 
 
 `999` = overall combined (all strata = `1+2+3+4+5+6+8+9`; or `10+20+31+32+41+42+43+50+61+62+82+90`)
 
-```{r shelf, out.height = "460px", out.width='800px', echo=F}
+```{r shelf, out.height = "460px", out.width='800px', echo=F, fig.alt="Easter Bering Sea stratum map showing strata 10, 20, 31-32, 41-43, 50, 61-62m 82, and 90."}
 knitr::include_graphics(here::here("figs", "EBS_shelf_strata.png"))
 ```
 

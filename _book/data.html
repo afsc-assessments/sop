@@ -23,7 +23,7 @@
 <meta name="author" content="alphabetical and Ben Williams" />
 
 
-<meta name="date" content="2022-05-04" />
+<meta name="date" content="2022-05-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,7 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+\usepackage{booktabs}
 
 
 
@@ -86,16 +87,17 @@
 <li class="chapter" data-level="3" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>3</b> Data</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="data.html"><a href="data.html#getting-access"><i class="fa fa-check"></i><b>3.1</b> Getting access</a></li>
-<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#confidentiality"><i class="fa fa-check"></i><b>3.2</b> Confidentiality</a>
+<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#passwords"><i class="fa fa-check"></i><b>3.2</b> Passwords</a></li>
+<li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#confidentiality"><i class="fa fa-check"></i><b>3.3</b> Confidentiality</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="data.html"><a href="data.html#handling-confidential-data-on-github"><i class="fa fa-check"></i><b>3.2.1</b> Handling confidential data on GitHub</a></li>
+<li class="chapter" data-level="3.3.1" data-path="data.html"><a href="data.html#handling-confidential-data-on-github"><i class="fa fa-check"></i><b>3.3.1</b> Handling confidential data on GitHub</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#crab-data"><i class="fa fa-check"></i><b>3.3</b> Crab data</a></li>
-<li class="chapter" data-level="3.4" data-path="data.html"><a href="data.html#groundfish-data"><i class="fa fa-check"></i><b>3.4</b> Groundfish data</a>
+<li class="chapter" data-level="3.4" data-path="data.html"><a href="data.html#crab-data"><i class="fa fa-check"></i><b>3.4</b> Crab data</a></li>
+<li class="chapter" data-level="3.5" data-path="data.html"><a href="data.html#groundfish-data"><i class="fa fa-check"></i><b>3.5</b> Groundfish data</a>
 <ul>
-<li class="chapter" data-level="3.4.1" data-path="data.html"><a href="data.html#bering-sea"><i class="fa fa-check"></i><b>3.4.1</b> Bering Sea</a></li>
-<li class="chapter" data-level="3.4.2" data-path="data.html"><a href="data.html#aleutian-islands"><i class="fa fa-check"></i><b>3.4.2</b> Aleutian Islands</a></li>
-<li class="chapter" data-level="3.4.3" data-path="data.html"><a href="data.html#gulf-of-alaska"><i class="fa fa-check"></i><b>3.4.3</b> Gulf of Alaska</a></li>
+<li class="chapter" data-level="3.5.1" data-path="data.html"><a href="data.html#bering-sea"><i class="fa fa-check"></i><b>3.5.1</b> Bering Sea</a></li>
+<li class="chapter" data-level="3.5.2" data-path="data.html"><a href="data.html#aleutian-islands"><i class="fa fa-check"></i><b>3.5.2</b> Aleutian Islands</a></li>
+<li class="chapter" data-level="3.5.3" data-path="data.html"><a href="data.html#gulf-of-alaska"><i class="fa fa-check"></i><b>3.5.3</b> Gulf of Alaska</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="safe.html"><a href="safe.html"><i class="fa fa-check"></i><b>4</b> Crab SAFE Guidelines</a></li>
@@ -161,17 +163,25 @@ akfin =
   )</code></pre>
 <p>Some simple terminology for when you are communicating with the AKFIN folks. “AKFIN” is the database. The schema is essentially like a folder and inside of it are all the tables.</p>
 </div>
-<div id="confidentiality" class="section level2 hasAnchor" number="3.2">
-<h2><span class="header-section-number">3.2</span> Confidentiality<a href="data.html#confidentiality" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="passwords" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Passwords<a href="data.html#passwords" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Your AFSC database password expires every 90 days.
+Fortunately it is easy to update using Oracle SQL Developer.</p>
+<p>Step 1. Open Oracle SQL Developer<br />
+Step 2. Right click the AFSC connection, then click on “Reset Password”.</p>
+<p><img src="figs/pwd1.png" title="Screenshot of using SQL Developer to reset a password for the AFSC server." alt="Screenshot of using SQL Developer to reset a password for the AFSC server."  /></p>
+</div>
+<div id="confidentiality" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Confidentiality<a href="data.html#confidentiality" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Some data we just aren’t permitted to share…</p>
-<div id="handling-confidential-data-on-github" class="section level3 hasAnchor" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Handling confidential data on GitHub<a href="data.html#handling-confidential-data-on-github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="easy-method" class="section level4 hasAnchor" number="3.2.1.1">
-<h4><span class="header-section-number">3.2.1.1</span> Easy method<a href="data.html#easy-method" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="handling-confidential-data-on-github" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Handling confidential data on GitHub<a href="data.html#handling-confidential-data-on-github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="easy-method" class="section level4 hasAnchor" number="3.3.1.1">
+<h4><span class="header-section-number">3.3.1.1</span> Easy method<a href="data.html#easy-method" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Use <code>.gitignore</code> and keep any confidential files from being pushed to github.</p>
 </div>
-<div id="local-commit-but-not-yet-pushed-to-github" class="section level4 hasAnchor" number="3.2.1.2">
-<h4><span class="header-section-number">3.2.1.2</span> Local commit but not yet pushed to GitHUb<a href="data.html#local-commit-but-not-yet-pushed-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="local-commit-but-not-yet-pushed-to-github" class="section level4 hasAnchor" number="3.3.1.2">
+<h4><span class="header-section-number">3.3.1.2</span> Local commit but not yet pushed to GitHUb<a href="data.html#local-commit-but-not-yet-pushed-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>In this scenario you have accidentally <strong>committed the wrong files</strong> to Git, <strong>but haven’t pushed the commit to GitHub</strong>.
 There are several ways to “undo” a series of commits.
 The method you choose depends upon the desired outcome:</p>
@@ -184,25 +194,25 @@ The method you choose depends upon the desired outcome:</p>
 <li>Undo the commit and completely remove all changes: <code>git reset --hard HEAD^</code></li>
 </ul>
 <p>Generally speaking you will want to use <code>git reset HEAD^</code>.</p>
-<p><img src="https://www.cloudsavvyit.com/p/uploads/2021/07/f5026f58.png?trim=1,1&amp;bg-color=000&amp;pad=1,1" /><!-- --></p>
+<p><img src="https://www.cloudsavvyit.com/p/uploads/2021/07/f5026f58.png?trim=1,1&bg-color=000&pad=1,1" title="git commands for undoing commits." alt="git commands for undoing commits."  /></p>
 </div>
-<div id="accidentally-pushed-to-github" class="section level4 hasAnchor" number="3.2.1.3">
-<h4><span class="header-section-number">3.2.1.3</span> Accidentally pushed to GitHUb<a href="data.html#accidentally-pushed-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="accidentally-pushed-to-github" class="section level4 hasAnchor" number="3.3.1.3">
+<h4><span class="header-section-number">3.3.1.3</span> Accidentally pushed to GitHUb<a href="data.html#accidentally-pushed-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 </div>
 </div>
-<div id="crab-data" class="section level2 hasAnchor" number="3.3">
-<h2><span class="header-section-number">3.3</span> Crab data<a href="data.html#crab-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="crab-data" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Crab data<a href="data.html#crab-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="groundfish-data" class="section level2 hasAnchor" number="3.4">
-<h2><span class="header-section-number">3.4</span> Groundfish data<a href="data.html#groundfish-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="bering-sea" class="section level3 hasAnchor" number="3.4.1">
-<h3><span class="header-section-number">3.4.1</span> Bering Sea<a href="data.html#bering-sea" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="groundfish-data" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Groundfish data<a href="data.html#groundfish-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="bering-sea" class="section level3 hasAnchor" number="3.5.1">
+<h3><span class="header-section-number">3.5.1</span> Bering Sea<a href="data.html#bering-sea" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Stratum numbers in the AKFIN tables designate different levels of data grouping.
 These designations are different for the different surveys (EBS slope vs EBS shelf).
 Given that these groupings are made at different levels, care should be taken not to sum values over all strata because this can duplicate data.</p>
-<div id="ebs-slope-stratum-designations" class="section level4 hasAnchor" number="3.4.1.1">
-<h4><span class="header-section-number">3.4.1.1</span> EBS SLOPE STRATUM DESIGNATIONS:<a href="data.html#ebs-slope-stratum-designations" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="ebs-slope-stratum-designations" class="section level4 hasAnchor" number="3.5.1.1">
+<h4><span class="header-section-number">3.5.1.1</span> EBS SLOPE STRATUM DESIGNATIONS:<a href="data.html#ebs-slope-stratum-designations" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Strata include (<code>1:6, 11:15, 21:25, 31:35, 41:45, 5:55, 61:65, 999999</code>).</p>
 <p>For 1-digit “strata”, the digit designates the Canyons ordered 1 - 6 , south to north, as follows:</p>
 <ul>
@@ -230,10 +240,10 @@ Stratum <code>65</code> = Navarin/Pervenets Canyons at depths of 1000-1200 m</p>
 <p>Finally, there is a combined overall Stratum designation:
 <code>999999</code> = all Canyons over all depth zones</p>
 <p>Thus, biomass for <code>stratum=999999</code> is the same as the sum of biomass for strata <code>1+2+3+4+5+6</code>, or the sum of biomass for strata (<code>11+12+13+14+15+21+22+23+24+25+31+32+33+34+35+41+42+43+44+45+51+52+53+54+55+61+62+63+64+65</code>).</p>
-<p><img src="figs/EBS_slope_strata.png" width="800px" height="460px" /></p>
+<p><img src="figs/EBS_slope_strata.png" title="Map of the Bering Sea showing strata, the digit designates the canyons ordered 1-6, south to north" alt="Map of the Bering Sea showing strata, the digit designates the canyons ordered 1-6, south to north" width="800px" height="460px" /></p>
 </div>
-<div id="ebs-shelf-stratum-designations" class="section level4 hasAnchor" number="3.4.1.2">
-<h4><span class="header-section-number">3.4.1.2</span> EBS SHELF STRATUM DESIGNATIONS:<a href="data.html#ebs-shelf-stratum-designations" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="ebs-shelf-stratum-designations" class="section level4 hasAnchor" number="3.5.1.2">
+<h4><span class="header-section-number">3.5.1.2</span> EBS SHELF STRATUM DESIGNATIONS:<a href="data.html#ebs-shelf-stratum-designations" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Strata include (<code>1:10, 20, 31, 32, 41:43, 50, 61, 62, 82, 90, 100, 200, 300, 999</code>).</p>
 <p>Please refer to the stratum map for location of strata.
 Strata <code>10, 20, 31, 32, 41, 42, 43, 50, 61, 62, 82, 90</code> are the core strata within which biomass and population are computed.
@@ -252,14 +262,14 @@ The other strata (<code>1:9, 100, 200, 300, 999</code>) are various summations o
 <code>200</code> = depth zone 50-100 m (=strata 3+4+8; or 31+32+41+42+43+82)<br />
 <code>300</code> = depth zone 100-200 m (=strata 5+6+9; or 50+61+90)</p>
 <p><code>999</code> = overall combined (all strata = <code>1+2+3+4+5+6+8+9</code>; or <code>10+20+31+32+41+42+43+50+61+62+82+90</code>)</p>
-<p><img src="figs/EBS_shelf_strata.png" width="800px" height="460px" /></p>
+<p><img src="figs/EBS_shelf_strata.png" title="Easter Bering Sea stratum map showing strata 10, 20, 31-32, 41-43, 50, 61-62m 82, and 90." alt="Easter Bering Sea stratum map showing strata 10, 20, 31-32, 41-43, 50, 61-62m 82, and 90." width="800px" height="460px" /></p>
 </div>
 </div>
-<div id="aleutian-islands" class="section level3 hasAnchor" number="3.4.2">
-<h3><span class="header-section-number">3.4.2</span> Aleutian Islands<a href="data.html#aleutian-islands" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="aleutian-islands" class="section level3 hasAnchor" number="3.5.2">
+<h3><span class="header-section-number">3.5.2</span> Aleutian Islands<a href="data.html#aleutian-islands" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 </div>
-<div id="gulf-of-alaska" class="section level3 hasAnchor" number="3.4.3">
-<h3><span class="header-section-number">3.4.3</span> Gulf of Alaska<a href="data.html#gulf-of-alaska" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="gulf-of-alaska" class="section level3 hasAnchor" number="3.5.3">
+<h3><span class="header-section-number">3.5.3</span> Gulf of Alaska<a href="data.html#gulf-of-alaska" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 
 </div>
 </div>
