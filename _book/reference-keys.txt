@@ -1,8 +1,8 @@
 welcome
 onboarding
 code-of-conduct
-git-and-github
 afsc-best-practices
+git-and-github
 file-directory
 coding-style-guide
 data
