@@ -1,6 +1,6 @@
 --- 
 title: "AFSC Fishery Stock Assessment SOP"
-author: "alphabetical and Ben Williams"
+author: "Ben Williams, Jane Sullivan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
