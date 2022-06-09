@@ -180,3 +180,42 @@ knitr::include_graphics(here::here("figs", "EBS_shelf_strata.png"))
 ### Gulf of Alaska
 
 
+## AFSC Longline Survey (LLS)
+
+Primary data contacts:
+(1) Survey methods and operations: kevin.siwicke@noaa.gov, pat.malecha@noaa.gov
+(2) Longline database and raw survey data: cara.rodgveller@noaa.gov, jane.sullivan@noaa.gov
+(3) Assessment data products: jane.sullivan@noaa.gov, cara.rodgveller@noaa.gov
+
+Comprehensive documentation for the longline survey can be found on AKFIN Answers and on the AKFIN Stock Assessment Portal: 
+https://akfinbi.psmfc.org/analyticsRes/Documentation/Database_Background_Instructions_AKFIN_20210915.pdf
+
+The AFSC also publishes an [annual survey report](https://repository.library.noaa.gov/view/noaa/37523), which includes several useful references on survey history and methods. Maps and detailed descriptions of geographic areas and depth strata can be found in [Echave et al. 2013](https://repository.library.noaa.gov/view/noaa/11869). 
+
+```{r lls_stations, out.height = "460px", out.width='800px', echo=F}
+knitr::include_graphics(here::here("figs", "lls_stations_echave.png"))
+```
+Figure reproduced from [Echave 2017](https://media.fisheries.noaa.gov/dam-migration/first-results-of-the-tagging-of-shortspine-thornyhead-508.pdf)
+
+LLS data are primarily accessed from the AKFIN Answers, or directly queried from the akfin or longline databases. 
+
+Available time series:   
+Japanese-led survey: 1964-1981
+Cooperative Japan/U.S. survey: 1979-1994
+Domestic (U.S.) survey: 1988-present. Most stock assessments start the Domestic survey time series in 1990 (e.g. sablefish) or 1992 (e.g. rougheye/blackspotted rockfish) due to inconsistencies in the early data. The Gulf of Alaska is surveyed annually, and since 1996 the Bering Sea and Aleutian Islands have been sampled in odd and even years, respectively. 
+
+Species of interest: Sablefish, shortspine thornyhead, Greenland turbot, Pacific cod, rougheye/blackspotted rockfish, and shortraker rockfish, arrowtooth flounder, Kamchatka flounder, grenadiers, skates, and spiny dogfish. Catch and effort data are recorded for all catch. Length composition data are collected for all aforementioned species. Sex, age, and maturity data are collected for sablefish. Sex data are also collected for grenadiers.
+
+The indices of abundance available for the LLS include the following: CPUE = numbers per skate (1 skate = 45 hooks); relative population numbers (RPNs) = area-weighted CPUE (area estimates are defined by depth strata and geographic area), relative population weight (RPW) = RPN multiplied by mean fish weight, which is calculated using an allometric relationship and the mean length of fish collected in a given strata and geographic area. The methods for variance estimation of these indices are documented on [p 26 the 2016 sablefish SAFE pdf](https://apps-afsc.fisheries.noaa.gov/REFM/Docs/2016/GOAsablefish.pdf) (p 350 of the GOA SAFE). 
+
+The time series starts for the domestic (i.e. operated by the AFSC) LLS in the BS and AI starts in 1996, and there are historical data available in the BS/AI from the cooperative Japanese/U.S. survey. In the modern/domestic survey, the eastern AI are surveyed in even years, and the BS is surveyed in odd years. The LLS does not sample the western AI. Estimates in NW and SW AI are based on fixed ratios in the NE and SE AI, respectively, from historical cooperative Japanese/U.S. surveys in 1979-1994. Note that definitions of eastern and western AI in the LLS are not equivalent to the AI bottom trawl survey definitions. *It is a work in progress to reconcile these survey areas for purposes of comparison.* Survey depths range from ~100 to 1,000 m; depth strata are defined using 100 m increments at depths < 400 m and 200 m increments at depths >= 400 m. These depth strata differ from the AFSC bottom trawl survey definitions, making one-on-one comparisons challenging at depths > 300 m.
+
+```{r depthstrata_lls_bts, out.height = "460px", out.width='800px', echo=F}
+knitr::include_graphics(here::here("figs", "depth_strata.png"))
+```
+
+
+
+
+## IPHC Fisheries Independent Setline Survey (FISS)
+
