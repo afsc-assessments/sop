@@ -7,6 +7,7 @@ file-directory
 coding-style-guide
 data
 getting-access
+passwords
 confidentiality
 handling-confidential-data-on-github
 easy-method
@@ -19,6 +20,7 @@ ebs-slope-stratum-designations
 ebs-shelf-stratum-designations
 aleutian-islands
 gulf-of-alaska
+afsc-longline-survey-lls
+iphc-fisheries-independent-setline-survey-fiss
 safe
 groundfish-safe-guidelines
-passwords
